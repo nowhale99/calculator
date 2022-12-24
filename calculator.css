@@ -52,6 +52,7 @@ body {
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat((5, 1fr));
 }
 button {
     margin: 2px;
@@ -65,12 +66,12 @@ button {
 .numberBtn {
     background-color: rgba(255, 255, 255, 0.4);
 }
-.operator {
+.operator, .clearBtn, .equality, .comma, .deleteBtn {
     background-color: rgba(255, 144, 160, 0.4);
 }
 .numberBtn:hover{
     background-color: rgba(255, 255, 255, 0.7)
 }
-.operator:hover {
+.operator:hover, .clearBtn:hover, .equality:hover, .comma:hover, .deleteBtn:hover {
     background-color: rgba(255, 144, 160, 0.7);
 }
